@@ -1,0 +1,4 @@
+[project]
+name = "naseejx"
+version = "0.1.0"
+dependencies = ["requests", "pytest"]
