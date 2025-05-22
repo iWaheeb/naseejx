@@ -1,4 +1,10 @@
 [project]
 name = "naseejx"
 version = "0.1.0"
-dependencies = ["requests", "pytest"]
+dependencies = ["requests", "pytest", "pytest-html"]
+
+[pytest]
+addopts = "--html=reports/report.html --self-contained-html"
+log_cli = "True"
+log_cli_level = "DEBUG"
+log_cli_format= '%(asctime)s - %(levelname)s - %(message)s'
