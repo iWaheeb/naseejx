@@ -3,7 +3,7 @@ name = "naseejx"
 version = "0.1.0"
 dependencies = ["requests", "pytest", "pytest-html"]
 
-[pytest]
+[tool.pytest.ini_options]
 addopts = "--html=reports/report.html --self-contained-html"
 log_cli = "True"
 log_cli_level = "DEBUG"
